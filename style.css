@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#BF2489, #682ABF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(#682ABF,#BF2489);
+}
+
+nav .logo{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+.login{
+   background-color: #002333; 
+}
+
+.login:hover{
+    background-color: #F2529D;
+}
+
+nav ul li a:hover{
+    background-color: #3D5A73;
+}
